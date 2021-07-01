@@ -1,0 +1,54 @@
+body
+{
+    background-image: url(./backg.jpg);
+}
+nav{
+    width: 500px;
+    margin-left: 69.5%;
+    margin-right: 15%;
+   
+}
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #0000ff;
+    background-color: #dbc25e;
+    border: 10px double white;
+    border-radius: 5px;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.container
+{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border: 10px double rgb(53, 194, 219);
+    border-radius: 5px;
+    opacity: 0.80;
+    padding: 10px;
+   
+
+}
+.botton
+{
+    background-color: rgba(198, 203, 230, 0.562);
+    border: 10px double rgb(205, 232, 236);
+    border-radius: 5px;
+    opacity: 0.80;
+    margin-right: 10px;
+   
+
+}
+.centerwsize
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}

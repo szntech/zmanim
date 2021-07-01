@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="./moladstyle.css" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1 class="centerwsize">The JEWISH CALEDER UNRAVELD</h1>
+		<nav><a href="./index.html" class="botton">How the moldad works</a><a href="./moladCalc.html" class="botton"> Molad calculater</a><a href="#about" class="botton"> About us</a></nav>
+	</header>
+<h1 class="centerwsize">Welcome to the MOLAD CALCULATER.</h1>
+<div class="container centerwsize">
+	<h2>Please enter youre starting molad and how many months later you want the molad for in the row 
+		labeld "Enter starting molad" and thean click the calculate botton. Every time you press the calculate botton it will add the result to the table to clear all results reload the page.</h2>
+
+
+	<table id='moladChart'>
+			<tbody id='moladChartbody'><tr><td></td><td>Months Later</td><td>Day</td><td>Hour</td><td>Minutes</td><td>Chelakim</td>
+			<tr id='inputRow'><td>Enter starting molad</td>
+				<td><input type="number" name="monlater" id="monlater" min="1" max="1080"></input>
+				<td><input type="number" name="dayow" id="dayow" min="0" max="6"></input></td>
+				<td><input type="number" name="hour" id="hour" min="0" max="23" ></input></td>
+				<td><input type="number" name="minutes" id="minutes" min="0" max="59"></input></td>
+				<td><input type="number" name="chelakim" id="chelakim" min="0" max="1080"></input></td>
+				</td></tr>
+			</tbody>
+			</table>
+<input type="submit" value="Calculate" id="clac-molad" />
+</div>
+<br>
+<div class="container centerwsize" id='calCalc'>
+	<h2>Type in any Hebrew year to get the molad's for that year.</h2>
+	<input type="number" name="inputhebrewY" id="inputhebrewY" min="1" ></input>
+	<input type="submit" value="Calculate" id="clac-RH" />
+	<table id='moladChart2'>
+		<tbody id='moladChartbody'>
+	</tbody>
+</table>
+</div>
+<br>
+<footer class="container centerwsize" id="about">
+	<p>This website is a part of the SZN Studio effort to help people unerstand technical halachos.</p>
+	<span>To contact us please email <a href="mailto:yeshivabeitar@gmail.com?subject=molad explaind">yeshivabeitar@gmail.com</a></span>
+	<p>A special thanks to Crefa corp for helping prepare the numbers for this site.</p>
+</footer>
+</body>
+<script src='./jcal.js'></script>
+
+
+
+</html>
